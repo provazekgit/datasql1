@@ -14,7 +14,7 @@ Tato tabulka obsahuje data týkající se mezd a cen potravin v České republic
 - Název produktu (`product_name`)
 - Průměrná cena produktu (`avg_price`)
 
-### SQL definice:
+### SQL 1 definice:
 
 ```sql
 DROP TABLE IF EXISTS t_pavel_provazek_project_sql_primary_final;
@@ -43,7 +43,7 @@ ORDER BY
     pib.name,
     pr.name;
 
-
+### SQL 2 definice:
 
 ## Datové podklady – kontrola a poznámky
 

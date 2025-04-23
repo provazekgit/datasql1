@@ -23,7 +23,7 @@ Z analýzy dat v letech 2006–2018 vyplývá, že růst HDP v České republice
 
 <pre>
 ```sql
--- Viz SQL skript v souboru /5_otazka.sql
+-- Viz SQL skript v souboru / 5_otazka.sql
 </pre>
 
 ### ✅ Závěr:

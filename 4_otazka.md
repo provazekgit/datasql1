@@ -16,9 +16,9 @@ Cílem je zjistit, zda se v některém roce výrazně zvýšily ceny potravin ta
 ---
 
 ## 📊 Použitá tabulka
-
+<pre>
 - `t_pavel_provazek_project_sql_primary_final`
-
+</pre>
 Z této tabulky jsme vypočítali:
 
 - **průměrné ceny potravin** za každý rok,
@@ -32,10 +32,10 @@ Z této tabulky jsme vypočítali:
 1. Spočítáme průměrné roční hodnoty cen a mezd.
 2. Pomocí `JOIN` a `LAG()`/`JOIN b.year = a.year - 1` získáme meziroční změny.
 3. Porovnáme vývoj v jednotlivých letech.
-
+<pre>
 ```sql
 -- Viz SQL skript ve složce /04_otazka.sql
-
+</pre>
 ### ### Odpověd 4:
 
  Pro zjištění, zda existoval rok s mimořádně vysokým růstem cen potravin,

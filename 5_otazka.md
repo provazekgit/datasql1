@@ -21,7 +21,7 @@ Z analýzy dat v letech 2006–2018 vyplývá, že růst HDP v České republice
 - HDP vzrostlo o cca **28 %**,  
 - průměrná mzda o cca **57 %**.
 
-  <pre>
+<pre>
 ```sql
 -- Viz SQL skript v souboru /5_otazka.sql
 </pre>

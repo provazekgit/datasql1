@@ -26,7 +26,7 @@
 ---
 
 ## Použitý SQL dotaz:
-
+<pre>
 ```sql
 WITH zaklad AS (
     SELECT
@@ -49,7 +49,7 @@ SELECT
 FROM zaklad
 WHERE cena_mleka IS NOT NULL AND cena_chleba IS NOT NULL
 ORDER BY industry_name, year;
-
+</pre>
 ### ## Odpověď :
 
  V roce 2006 se za mzdu dalo koupit cca 913 až 1293 litrů mléka a 747 až 1058 kg chleba

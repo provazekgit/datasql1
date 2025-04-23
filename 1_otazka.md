@@ -25,7 +25,7 @@
 ## Použité SQL dotazy
 
 ### 1. Základní přehled vývoje mezd:
-
+<pre>
 ```sql
 SELECT
     industry_name,
@@ -37,8 +37,10 @@ GROUP BY
     industry_name, year
 ORDER BY
     industry_name, year;
+</pre>
 
 ### 2. Přehled s meziroční změnou (rozdíl + procenta):
+<pre>
 ```sql
 WITH aggregated AS (
     SELECT
@@ -62,7 +64,7 @@ SELECT
     ) AS pct_change
 FROM aggregated
 ORDER BY industry_name, year;
-
+</pre> 
 ### Odpověd 1
 
 Mzdy ve všech sledovaných odvětvích mezi roky 2006 a 2018 rostly – nenalezli jsme žádné odvětví, kde by mzda klesla.

@@ -34,7 +34,7 @@ Z této tabulky jsme vypočítali:
 3. Porovnáme vývoj v jednotlivých letech.
 <pre>
 ```sql
--- Viz SQL skript v souboru /04_otazka.sql
+-- Viz SQL skript v souboru / 4_otazka.sql
 </pre>
 ### ### Odpověd 4:
 

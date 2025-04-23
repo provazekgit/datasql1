@@ -13,7 +13,7 @@
 ---
 
 ## Použitý SQL dotaz:
-
+<pre>
 ```sql
 WITH prumerne_ceny AS (
     SELECT
@@ -48,6 +48,7 @@ SELECT product_name, prumerna_rocni_zmena
 FROM prumerne_tempo_zdrazovani
 ORDER BY prumerna_rocni_zmena ASC
 LIMIT 1;
+</pre>
 
 ### Odpověď na dotaz 3
 
